@@ -8,11 +8,11 @@
 ## Installation
 
 ```sh
-git clone https://github.com/oguzsh/oguzsh-website.git
+git clone https://github.com/oguzsh/oguzsh_gatsby_blog.git
 ```
 
 ```sh
-cd oguzsh-website
+cd oguzsh_gatsby_blog
 ```
 
 ```sh
@@ -21,7 +21,7 @@ npm install / yarn install
 
 ## Author
 
-👤 **oguzshh**
+👤 **oguzsh**
 
 - Twitter: [@oguz_sh](https://twitter.com/oguz_sh)
 - Github: [@oguzsh](https://github.com/oguzsh)
