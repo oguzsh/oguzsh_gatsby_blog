@@ -1,0 +1,109 @@
+.allPosts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.box .postimg {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4);
+    z-index: -1;
+}
+
+.box .tag p,
+.box .header,
+.box .content {
+    color: white !important;
+    text-decoration: none;
+    overflow: none;
+    z-index: 1;
+}
+
+.box .tag {
+    top: 5%;
+    left: 5%;
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    background-image: -o-linear-gradient(320deg, #88ceff, #129cff);
+    background-image: linear-gradient(130deg, #88ceff, #129cff);
+    border-radius: 15px;
+}
+
+.box .tag p {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    line-height: 15px;
+    line-height: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.box .content {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    text-align: left;
+}
+
+.box .content .header {
+    font-weight: 600;
+    overflow-wrap: wrap;
+    font-size: 11.5px;
+}
+
+.box .content .paragraph {
+    margin-top: 10px;
+    overflow-wrap: wrap;
+    font-size: 13px;
+}
+
+.box .postUrl {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.box:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}

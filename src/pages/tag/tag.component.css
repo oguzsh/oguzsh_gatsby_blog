@@ -1,0 +1,75 @@
+.TagList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.TagList h1 {
+    font-size: 55px;
+    color: var(--textTitle);
+}
+
+.TagList h3 {
+    color: var(--textTitle);
+}
+
+.TagList h1,
+h3 {
+    margin: 20px;
+}
+
+.list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.tagLink {
+    width: 100px;
+    background-color: "#eeeeee";
+    border-radius: "10px";
+    text-align: center;
+    font-size: 15px;
+    background: #eeeeee;
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.tagCount {
+    margin: 5px;
+}
+
+.tagLink:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
