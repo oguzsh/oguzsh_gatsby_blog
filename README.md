@@ -3,7 +3,10 @@
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
 [![Twitter: o](https://img.shields.io/twitter/follow/o.svg?style=social)](https://twitter.com/oguz_sh)
 
-### 🏠 [Homepage](https://oguz.live)
+## Design
+<p align="center">
+  <img  src="https://i.ibb.co/41xmbqz/image.png">
+</p>
 
 ## Installation
 
