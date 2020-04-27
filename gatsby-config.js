@@ -86,11 +86,5 @@ module.exports = {
                 icon: `./src/images/siteLogo.png`, // This path is relative to the root of the site.
             },
         },
-        {
-            resolve: `gatsby-plugin-google-adsense`,
-            options: {
-                publisherId: "process.env.ADSENSE_TOKEN"`
-            },
-        },
     ],
 }
